@@ -14,6 +14,72 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <h1>Contact Me</h1>
+    <nav class="nav">
+      <ul class="list__nav">
+        <li class="list__item"><a href="/">About Me</a></li>
+        <li class="list__item"><a href="/Resume.html">Resume/CV</a></li>
+        <li class="list__item"><a href="/Past Work.html">Past Work</a></li>
+        <li class="list__item"><a href="/Contact Me.html">Contact Me</a></li>
+      </ul>
+    </nav>
+    <h1 class="center">Contact Me</h1>
+    <form
+      class="container grid"
+      action="https://formspree.io/f/xleakedq"
+      method="POST"
+    >
+      <input
+        class="input__small"
+        type="text"
+        placeholder="First Name"
+        name="First Name"
+        required
+      />
+      <input
+        class="input__small"
+        type="text"
+        placeholder="Last Name"
+        name="Last Name"
+      />
+      <input
+        class="input__medium multi-column-2"
+        type="email"
+        placeholder="Email"
+        name="Email"
+        required
+      />
+      <input
+        class="input__medium multi-column-3"
+        type="text"
+        placeholder="Subject"
+        name="Subject"
+      />
+      <input
+        class="input__large multi-column-4"
+        type="text"
+        placeholder="Message"
+        required
+        name="Message"
+      />
+      <div class="center new-cell">
+        <button class="btn center" type="submit">Submit</button>
+      </div>
+    </form>
+    <footer>
+      <div class="center">
+        <a
+          class="link__image"
+          href="https://github.com/erstorts"
+          target="_blank"
+          ><img src="images/GitHub.svg" alt=""
+        /></a>
+        <a
+          class="link__image"
+          href="https://www.linkedin.com/in/emmett-storts/"
+          target="_blank"
+          ><img src="images/LinkedIn.svg" alt=""
+        /></a>
+      </div>
+    </footer>
   </body>
 </html>
